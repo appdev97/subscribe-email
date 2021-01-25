@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.publish-page-wrapper {
+  display: flex;
+  height: calc(100vh - 128px);
+
+  .publish-page {
+    padding: 16px;
+    margin: auto;
+    width: calc(100vw - 500px);
+    min-width: 150px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .publish-form {
+    margin-bottom: 32px;
+  }
+}

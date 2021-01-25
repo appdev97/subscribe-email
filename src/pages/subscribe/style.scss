@@ -1,0 +1,17 @@
+.subscribe-page-wrapper {
+  width: 100%;
+  height: calc(100vh - 128px);
+
+  .subscribe-page {
+    padding: 16px;
+    margin: 64px auto 0;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .subscribe-form {
+    margin-bottom: 32px;
+  }
+}
